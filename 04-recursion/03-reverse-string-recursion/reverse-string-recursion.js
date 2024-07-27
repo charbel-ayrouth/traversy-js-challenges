@@ -3,7 +3,7 @@ function reverseString(string) {
     return "";
   }
 
-  return string.substr(-1) + reverseString(string.slice(0, -1));
+  return string.slice(-1) + reverseString(string.slice(0, -1));
 }
 
 module.exports = reverseString;
