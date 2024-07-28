@@ -30,26 +30,26 @@ const map2 = new Map([
 console.log(nameMap.has(1));
 console.log(nameMap.has(10));
 
-// remove values
-nameMap.delete(1);
-console.log(nameMap.has(1));
+// // remove values
+// nameMap.delete(1);
+// console.log(nameMap.has(1));
 
-// get size
-console.log(nameMap.size);
+// // get size
+// console.log(nameMap.size);
 
-// Iterating over a map
-for (let [key, value] of nameMap) {
-  console.log(key, value);
-}
+// // Iterating over a map
+// for (let [key, value] of nameMap) {
+//   console.log(key, value);
+// }
 
-nameMap.forEach((value, key) => console.log(key, value));
+// nameMap.forEach((value, key) => console.log(key, value));
 
-// Get keys
-console.log(nameMap.keys());
+// // Get keys
+// console.log(nameMap.keys());
 
-// Get values
-console.log(nameMap.values());
+// // Get values
+// console.log(nameMap.values());
 
-// Clear map
-nameMap.clear();
-console.log(nameMap.size);
+// // Clear map
+// nameMap.clear();
+// console.log(nameMap.size);
